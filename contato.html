@@ -3,36 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Contato</title>
 </head>
 <body>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="contato.html">Contato</a></li>
-  </ul>
-  <h1>Entre em contato</h1>
-  <form>
-    <label for="nome">Nome:</label><br>
-    <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br>
-    <label for="email">E-mail:</label><br>
-    <input type="email" id="email" name="email" placeholder="Digite seu e-mail"><br>
-    <label for="telefone">Telefone:</label><br>
-    <input type="tel" id="telefone" name="telefone" placeholder="(99)99999-9999"><br>
-    <label for="assunto">Assunto:</label><br>
-    <textarea name="assunto" id="assunto" cols="30" rows="10" placeholder="Digite o assunto"></textarea>
-    <br><br>
-    <button>Enviar</button>
-  </form>
-
-  <h2>Endereço:</h2>
-  <p>Rua Augusta, 215</p>
-  <p>São Paulo - SP</p>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.4944310290043!2d-46.
-  65028844992164!3d-23.550679567006792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94
-  ce584b08fa1a53%3A0xe8897e8f2e5fa4a!2sR.%20Augusta%2C%20215%20-%20Consola%C3%A7%C3%A3o%2C%20
-  S%C3%A3o%20Paulo%20-%20SP%2C%2001305-000!5e0!3m2!1spt-BR!2sbr!4v1605886642611!5m2!1spt-BR!2
-  sbr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" 
-  aria-hidden="false" tabindex="0"></iframe>
-
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="contato.html">CONTATO</a></li>
+    </ul>
+  </nav>
+  <h1 class="center">Entre em contato</h1>
+  <div class="container mb-50">
+    <div>
+      <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail"><br><br>
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" id="telefone" name="telefone" placeholder="(99)99999-9999"><br><br>
+        <label for="assunto">Assunto:</label><br>
+        <textarea name="assunto" id="assunto" cols="30" rows="10" placeholder="Digite o assunto"></textarea>
+        <br><br>
+        <button class="send">Enviar</button>
+      </form>
+    </div>
+    <div class="ml-50">
+      <p class="center">Rua Augusta, 215</p>
+      <p class="center">São Paulo - SP</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.4944310290043!2d-46.
+      65028844992164!3d-23.550679567006792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94
+      ce584b08fa1a53%3A0xe8897e8f2e5fa4a!2sR.%20Augusta%2C%20215%20-%20Consola%C3%A7%C3%A3o%2C%20
+      S%C3%A3o%20Paulo%20-%20SP%2C%2001305-000!5e0!3m2!1spt-BR!2sbr!4v1605886642611!5m2!1spt-BR!2
+      sbr" width="450" height="400" frameborder="0" style="border:0;" allowfullscreen="" 
+      aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </div>
+  <hr>
+  <footer>
+    <div class="container">
+      <a href="https://github.com/caetano-felipe" target="_blank"><img class="tm-social" src="assets/images/github.png" alt="Perfil do Github"></a>
+      <a href="https://www.linkedin.com/in/felipe-borges-caetano-78627416a/" target="_blank"><img class="tm-social" src="assets/images/linkedin.png" alt="Perfil do Linkedin"></a>
+    </div>
+    <p class="center">
+      Felipe Caetano &copy
+    </p>
+  </footer>
 </body>
 </html>

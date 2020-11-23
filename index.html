@@ -3,42 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Meu Perfil</title>
 </head>
 <body>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="contato.html">Contato</a></li>
-  </ul>
-  <h1>Sobre o Felipe</h1>
-  <p>
-    Mussum Ipsum, cacilds vidis litro abertis. Si u mundo tá muito paradis? Toma 
-    um mé que o mundo vai girarzis! Vehicula non. Ut sed ex eros. Vivamus sit amet 
-    nibh non tellus tristique interdum. Admodum accumsan disputationi eu sit. Vide 
-    electram sadipscing et per. Detraxit consequat et quo num tendi nada.
-
-    Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Casamentiss 
-    faiz malandris se pirulitá. Posuere libero varius. Nullam a nisl ut ante blandit 
-    hendrerit. Aenean sit amet nisi. Nec orci ornare consequat. Praesent lacinia ultrices 
-    consectetur. Sed non ipsum felis.
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="contato.html">CONTATO</a></li>
+    </ul>
+  </nav>
+  <h1 class="center">Sobre o Felipe</h1>
+  <div class="container">
+    <div>
+      <img class="image" src="assets/images/perfil-circ.png" alt="Foto do criador desse conteúdo">
+    </div>
+    <div class="about">
+      <p class="justify">
+        Mussum Ipsum, cacilds vidis litro abertis. Si u mundo tá muito paradis? Toma 
+        um mé que o mundo vai girarzis! Vehicula non. Ut sed ex eros. Vivamus sit amet 
+        nibh non tellus tristique interdum. Admodum accumsan disputationi eu sit. Vide 
+        electram sadipscing et per. Detraxit consequat et quo num tendi nada.
     
-    Paisis, filhis, espiritis santis. Suco de cevadiss, é um leite divinis, qui tem 
-    lupuliz, matis, aguis e fermentis. Suco de cevadiss deixa as pessoas mais interessantis. 
-    Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
-  </p>
+        Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Casamentiss 
+        faiz malandris se pirulitá. Posuere libero varius. Nullam a nisl ut ante blandit 
+        hendrerit. Aenean sit amet nisi. Nec orci ornare consequat. Praesent lacinia ultrices 
+        consectetur. Sed non ipsum felis.
+        
+        Paisis, filhis, espiritis santis. Suco de cevadiss, é um leite divinis, qui tem 
+        lupuliz, matis, aguis e fermentis. Suco de cevadiss deixa as pessoas mais interessantis. 
+        Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+      </p>
+    
+      <p class="justify">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores nesciunt ab iusto. 
+        Quasi velit laborum dicta at beatae! In corrupti iusto consequatur neque non aspernatur 
+        maxime perferendis quos molestias sequi?
+      </p>
+    </div>
+  </div>
 
-  <p>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores nesciunt ab iusto. 
-    Quasi velit laborum dicta at beatae! In corrupti iusto consequatur neque non aspernatur 
-    maxime perferendis quos molestias sequi?
-  </p>
+  <h2 class="center">Um pouco de meu estilo musical:</h2>
 
-  <img src="assets/images/perfil.png" alt="Foto do criador desse conteúdo">
-
-  <h2>Um som que gosto:</h2>
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/EE1PPzauVKg" 
-  frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-  gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="container">
+    <iframe class="video" width="650" height="400" src="https://www.youtube.com/embed/EE1PPzauVKg" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <hr>
+  <footer>
+    <div class="container">
+      <a href="https://github.com/caetano-felipe" target="_blank"><img class="tm-social" src="assets/images/github.png" alt="Perfil do Github"></a>
+      <a href="https://www.linkedin.com/in/felipe-borges-caetano-78627416a/" target="_blank"><img class="tm-social" src="assets/images/linkedin.png" alt="Perfil do Linkedin"></a>
+    </div>
+    <p class="center footer">
+      Felipe Caetano &copy
+    </p>
+  </footer>
 </body>
 </html>
