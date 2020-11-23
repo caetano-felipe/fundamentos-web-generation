@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+}
+
+/* Aplicação de Fonte Web Google */
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos da página index.html */
+
+h1, h2 {
+  margin: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  background-color: #24292E;
+  height: 50px;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 15px;
+  font-size: 22px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  color: #AAA;
+  transition: 1.2s;
+}
+
+.about {
+  padding: 30px;
+}
+
+.image {
+  border-radius: 50%;
+  width: 250px;
+  height: 100%;
+  padding: 30px;
+}
+
+.video {
+  margin-bottom: 30px;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.video:hover {
+  opacity: 0.9;
+}
+
+.tm-social {
+  width: 50px;
+  height: 100%;
+  padding: 5px;
+}
+
+/* Estilos da página contato.html */
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.send {
+  width: 40%;
+  padding: 15px 0;
+  background-color: #303438;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.send:hover {
+  background-color: #24292E;
+  transform: scale(1.2);
+}
